@@ -42,130 +42,160 @@
 <!-- ==================== VIETNAMESE ==================== -->
 <div id="lang-vi" class="lang show">
   <h1>Chính sách quyền riêng tư</h1>
-  <p class="updated">Cập nhật lần cuối: 13/07/2026 · Áp dụng cho ứng dụng IELTS Lock In (com.lockin.ielts)</p>
+  <p class="updated">Cập nhật lần cuối: 21/07/2026 · Áp dụng cho ứng dụng IELTS Lock In (com.lockin.ielts)</p>
 
   <p>IELTS Lock In là ứng dụng luyện thi IELTS do <strong>Đào Đức Minh</strong> ("chúng tôi") phát hành. Chính sách này giải thích chúng tôi thu thập dữ liệu gì, dùng để làm gì, và quyền của bạn.</p>
 
-  <div class="note"><strong>Độ tuổi tối thiểu: 13.</strong> Ứng dụng dành cho người dùng từ đủ 13 tuổi trở lên và <strong>không hướng đến trẻ em dưới 13 tuổi</strong>. Chúng tôi xử lý dữ liệu cá nhân theo Luật Bảo vệ dữ liệu cá nhân (Luật số 91/2025/QH15) và Nghị định 356/2025/NĐ-CP của Việt Nam. Theo pháp luật Việt Nam, người dưới 16 tuổi được coi là trẻ em: với người dùng dưới 16 tuổi, việc xử lý dữ liệu cần có sự đồng ý của cha mẹ hoặc người giám hộ. Ứng dụng chỉ hiển thị <strong>quảng cáo không cá nhân hoá</strong> và không theo dõi hành vi người dùng cho mục đích quảng cáo.</div>
+  <div class="note"><strong>Độ tuổi tối thiểu: 13.</strong> Ứng dụng dành cho người dùng từ đủ 13 tuổi trở lên và <strong>không hướng đến trẻ em dưới 13 tuổi</strong>. Tính năng trò chuyện thoại (Talk Room) <strong>chỉ dành cho người dùng từ đủ 18 tuổi</strong>. Chúng tôi xử lý dữ liệu cá nhân theo Luật Bảo vệ dữ liệu cá nhân (Luật số 91/2025/QH15) và Nghị định 356/2025/NĐ-CP của Việt Nam. Theo pháp luật Việt Nam, người dưới 16 tuổi được coi là trẻ em: với người dùng dưới 16 tuổi, việc xử lý dữ liệu cần có sự đồng ý của cha mẹ hoặc người giám hộ. Ứng dụng chỉ hiển thị <strong>quảng cáo không cá nhân hoá</strong>.</div>
 
   <h2>1. Dữ liệu chúng tôi thu thập</h2>
   <ul>
-    <li><strong>Thông tin tài khoản:</strong> mã định danh người dùng (uid) và email (nếu bạn đăng nhập bằng email) thông qua Firebase Authentication.</li>
-    <li><strong>Dữ liệu học tập:</strong> tiến độ bài học, điểm số, lịch sử làm bài, tiền tệ trong ứng dụng (Gold/Silver), cài đặt học tập.</li>
+    <li><strong>Thông tin tài khoản:</strong> khi đăng nhập bằng Google, chúng tôi nhận mã định danh người dùng (uid), địa chỉ email và tên hiển thị cơ bản từ tài khoản Google của bạn (qua Firebase Authentication / Google Sign-In).</li>
+    <li><strong>Ngày sinh:</strong> chúng tôi hỏi ngày sinh của bạn (màn hình khai tuổi trung tính) để xác định các tính năng giới hạn theo độ tuổi. Trò chuyện thoại chỉ mở cho người dùng từ 18 tuổi trở lên.</li>
+    <li><strong>Dữ liệu học tập:</strong> tiến độ bài học, điểm số, lịch sử làm bài, tiền tệ trong ứng dụng (Gold/Silver), mục tiêu và cài đặt học tập.</li>
     <li><strong>Bài viết bạn nộp:</strong> khi bạn dùng tính năng chấm bài Writing bằng AI, nội dung bài viết được gửi đến nhà cung cấp AI (DeepSeek) — <strong>xử lý bên ngoài lãnh thổ Việt Nam</strong> — để chấm điểm, sau đó trả kết quả về. Bài viết không được dùng để nhận diện danh tính.</li>
     <li><strong>Giọng nói (Speaking):</strong> âm thanh được xử lý <strong>trực tiếp trên thiết bị</strong> bằng công cụ nhận dạng giọng nói của hệ điều hành. Chúng tôi <strong>không tải bản ghi âm lên máy chủ</strong>.</li>
-    <li><strong>Lời nhắc bản thân (nếu bạn ghi âm):</strong> đoạn ghi âm nhắc nhở được lưu <strong>cục bộ trên thiết bị của bạn</strong> và không bao giờ được tải lên máy chủ; chúng tôi chỉ lưu thông tin là có/không có bản ghi và độ dài.</li>
-    <li><strong>Phòng trò chuyện (Talk Room):</strong> tính năng trò chuyện thoại được vận hành qua nền tảng Discord. Khi bạn dùng tính năng này, chúng tôi liên kết tài khoản ứng dụng của bạn với tài khoản Discord của bạn (mã định danh Discord) để quản lý phòng. Nội dung trò chuyện diễn ra trên hạ tầng của Discord và chịu sự điều chỉnh của <a href="https://discord.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Discord</a>. Chúng tôi không ghi âm hay lưu trữ nội dung cuộc trò chuyện.</li>
-    <li><strong>Dữ liệu kỹ thuật:</strong> thông tin thiết bị cơ bản và nhật ký lỗi để vận hành và sửa lỗi ứng dụng.</li>
+    <li><strong>Tài khoản Discord (nếu bạn dùng Talk Room):</strong> chúng tôi liên kết tài khoản ứng dụng với mã định danh Discord của bạn để quản lý phòng thoại. Xem mục 5.</li>
+    <li><strong>Mã thông báo đẩy (push token):</strong> một mã do Firebase Cloud Messaging cấp, dùng để gửi thông báo và — với tài khoản có liên kết giám hộ — để áp dụng cài đặt của phụ huynh kịp thời.</li>
+    <li><strong>Trạng thái bảo vệ (với tài khoản được giám sát):</strong> khi một tài khoản được liên kết với máy phụ huynh, chúng tôi ghi nhận việc các tính năng bảo vệ có đang hoạt động hay không (ví dụ: các quyền cần thiết đã được cấp chưa) để báo cho phụ huynh biết chế độ tập trung có hiệu lực. <strong>Chúng tôi không thu thập danh sách ứng dụng con cài đặt hay lịch sử sử dụng ứng dụng của con.</strong></li>
+    <li><strong>Dữ liệu kỹ thuật:</strong> thông tin thiết bị cơ bản, một mã định danh thiết bị dùng để thực thi việc xác minh tuổi và chống lạm dụng, cùng nhật ký lỗi để vận hành và sửa lỗi ứng dụng.</li>
   </ul>
-  <p>Chúng tôi <strong>không</strong> thu thập: vị trí chính xác, danh bạ, ảnh, tin nhắn, hay bất kỳ dữ liệu nào không cần thiết cho việc học.</p>
+  <p>Chúng tôi <strong>không</strong> thu thập: vị trí chính xác, danh bạ, ảnh, tin nhắn, danh sách ứng dụng đã cài của người dùng, hay bất kỳ dữ liệu nào không cần thiết cho việc học.</p>
 
   <h2>2. Chúng tôi dùng dữ liệu để làm gì</h2>
   <ul>
     <li>Cung cấp tính năng học tập, lưu tiến độ, đồng bộ giữa các thiết bị.</li>
     <li>Chấm điểm bài viết bằng AI khi bạn yêu cầu.</li>
+    <li>Xác định tính năng phù hợp theo độ tuổi (ví dụ: giới hạn Talk Room cho người từ 18 tuổi).</li>
+    <li>Vận hành chế độ tập trung và, nếu bạn bật, chế độ giám sát của phụ huynh (xem mục 6).</li>
+    <li>Gửi thông báo và áp dụng cài đặt kịp thời.</li>
     <li>Vận hành, bảo mật và sửa lỗi ứng dụng.</li>
   </ul>
   <p>Chúng tôi <strong>không mua bán dữ liệu</strong> của bạn và <strong>không dùng dữ liệu của người dùng chưa thành niên cho quảng cáo cá nhân hoá</strong>.</p>
 
   <h2>3. Quảng cáo</h2>
-  <p>Nếu ứng dụng hiển thị quảng cáo, chúng tôi dùng Google AdMob ở chế độ <strong>không cá nhân hoá</strong>: không dùng mã định danh quảng cáo để theo dõi hành vi. Người dùng Premium không thấy quảng cáo.</p>
+  <p>Ứng dụng có tính năng <strong>quảng cáo có thưởng</strong> tuỳ chọn: bạn có thể xem một quảng cáo để nhận Gold trong ứng dụng. Chúng tôi dùng <strong>Google AdMob</strong> ở chế độ <strong>không cá nhân hoá</strong>. Để hiển thị, đo lường và chống gian lận quảng cáo, AdMob có thể thu thập mã định danh thiết bị (ví dụ mã quảng cáo) và dữ liệu tương tác với quảng cáo, và chia sẻ với Google. Chúng tôi không dùng dữ liệu này để theo dõi hành vi phục vụ quảng cáo cá nhân hoá. <strong>Người dùng Premium không thấy quảng cáo.</strong></p>
 
   <h2>4. Bên thứ ba xử lý dữ liệu</h2>
   <ul>
-    <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions) — lưu trữ tài khoản và dữ liệu học tập, máy chủ đặt tại khu vực asia-southeast1 (Singapore).</li>
-    <li><strong>Google AdMob</strong> — hiển thị quảng cáo không cá nhân hoá (nếu có).</li>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions, Cloud Messaging, App Check) — lưu trữ tài khoản và dữ liệu học tập, gửi thông báo; máy chủ đặt tại khu vực asia-southeast1 (Singapore).</li>
+    <li><strong>Google AdMob</strong> — hiển thị quảng cáo không cá nhân hoá; thu thập mã định danh thiết bị cho mục đích quảng cáo (mục 3).</li>
     <li><strong>DeepSeek</strong> — chấm điểm bài viết Writing bằng AI (chỉ nhận nội dung bài viết, không nhận thông tin danh tính).</li>
-    <li><strong>Discord</strong> — vận hành phòng trò chuyện thoại (Talk Room). Để sử dụng tính năng này, bạn cần có tài khoản Discord và đồng ý với <a href="https://discord.com/terms" target="_blank" rel="noopener">Điều khoản</a> cùng <a href="https://discord.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư</a> của Discord. Discord yêu cầu người dùng đủ 13 tuổi trở lên. Tính năng này là tuỳ chọn — không dùng Talk Room thì không có dữ liệu nào được chia sẻ với Discord.</li>
+    <li><strong>Discord</strong> — vận hành phòng trò chuyện thoại (Talk Room). Xem mục 5.</li>
   </ul>
   <div class="note"><strong>Chuyển dữ liệu ra nước ngoài.</strong> Firebase (Singapore) và DeepSeek xử lý dữ liệu <strong>bên ngoài lãnh thổ Việt Nam</strong>; đây là hoạt động chuyển dữ liệu cá nhân ra nước ngoài theo pháp luật Việt Nam. Chúng tôi chỉ chuyển những dữ liệu cần thiết cho các mục đích nêu trên và yêu cầu các bên này bảo vệ dữ liệu của bạn.</div>
 
-  <h2>5. Người dùng chưa thành niên và quyền của cha mẹ</h2>
-  <p>Độ tuổi tối thiểu để sử dụng ứng dụng là 13. Người dùng từ 13 đến dưới 18 tuổi là người chưa thành niên và nên sử dụng ứng dụng dưới sự giám sát của cha mẹ hoặc người giám hộ. Với người dùng <strong>dưới 16 tuổi</strong> (trẻ em theo pháp luật Việt Nam), chúng tôi yêu cầu sự đồng ý của cha mẹ hoặc người giám hộ trước khi xử lý dữ liệu cá nhân.</p>
+  <h2>5. Trò chuyện thoại (Talk Room) — chỉ 18+</h2>
+  <p>Talk Room là tính năng <strong>tuỳ chọn</strong> cho phép luyện nói cùng người khác qua nền tảng Discord, và <strong>chỉ dành cho người dùng từ đủ 18 tuổi</strong>. Người dùng dưới 18 tuổi không thể truy cập tính năng này.</p>
+  <p>Khi bạn dùng Talk Room, chúng tôi liên kết tài khoản ứng dụng với mã định danh Discord của bạn để quản lý phòng. Trong phòng, người khác thấy danh xưng ẩn danh (không phải tên thật của bạn từ ứng dụng), nhưng có thể thấy tên người dùng Discord của bạn theo cách Discord hoạt động. Cuộc trò chuyện diễn ra trên hạ tầng của Discord và chịu sự điều chỉnh của <a href="https://discord.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Discord</a>; chúng tôi <strong>không ghi âm hay lưu trữ nội dung cuộc trò chuyện</strong>.</p>
+  <p><strong>An toàn:</strong> bạn có thể <strong>báo cáo</strong> người dùng khác; báo cáo được lưu để chúng tôi xem xét, khiến hai người <strong>không bị ghép lại với nhau</strong>, và một người bị nhiều người báo cáo có thể bị <strong>tạm cấm</strong> khỏi tính năng. Việc sử dụng Talk Room yêu cầu bạn có tài khoản Discord và đồng ý với <a href="https://discord.com/terms" target="_blank" rel="noopener">Điều khoản</a> của Discord. Nếu bạn không dùng Talk Room, không có dữ liệu nào được chia sẻ với Discord.</p>
+
+  <h2>6. Chế độ giám sát của phụ huynh (tuỳ chọn)</h2>
+  <p>Cha mẹ/người giám hộ và người học có thể <strong>liên kết tài khoản với nhau bằng một mã ghép nối</strong>. Đây là tính năng tuỳ chọn.</p>
+  <p>Khi đã liên kết, người giám hộ có thể: xem báo cáo học tập của con (kết quả bài kiểm tra, tiến độ, bài tập trong ngày), đặt mục tiêu/lịch học, và chọn những ứng dụng học tập được phép dùng trong lúc tập trung (từ một danh sách có sẵn). Người giám hộ được thông báo về <strong>trạng thái hoạt động của chế độ bảo vệ</strong> trên máy con, <strong>nhưng không thấy danh sách ứng dụng con cài đặt hay lịch sử sử dụng của con</strong>. Chúng tôi không theo dõi vị trí và không đọc tin nhắn của con.</p>
+  <p>Người học có thể <strong>ngắt liên kết bất cứ lúc nào</strong> ngay trong ứng dụng; khi đó mọi cài đặt do phụ huynh áp dụng sẽ được gỡ bỏ và người giám hộ được thông báo.</p>
+
+  <h2>7. Người dùng chưa thành niên và quyền của cha mẹ</h2>
+  <p>Độ tuổi tối thiểu để sử dụng ứng dụng là 13. Người dùng từ 13 đến dưới 18 tuổi là người chưa thành niên; tính năng trò chuyện thoại không mở cho nhóm này. Với người dùng <strong>dưới 16 tuổi</strong> (trẻ em theo pháp luật Việt Nam), chúng tôi yêu cầu sự đồng ý của cha mẹ hoặc người giám hộ trước khi xử lý dữ liệu cá nhân.</p>
   <p>Nếu bạn là cha mẹ hoặc người giám hộ, bạn có quyền: xem dữ liệu của con, yêu cầu chỉnh sửa hoặc xoá dữ liệu, và rút lại sự đồng ý bất kỳ lúc nào. Hãy liên hệ <strong>ielts.lockin@gmail.com</strong> — chúng tôi phản hồi trong vòng 7 ngày.</p>
 
-  <h2>6. Lưu trữ và bảo mật</h2>
+  <h2>8. Lưu trữ và bảo mật</h2>
   <p>Dữ liệu được lưu trên hạ tầng Google Cloud với mã hoá khi truyền và khi lưu trữ. Chúng tôi giữ dữ liệu chừng nào tài khoản còn hoạt động; khi tài khoản bị xoá, dữ liệu liên kết sẽ bị xoá khỏi hệ thống trong vòng 30 ngày.</p>
 
-  <h2 id="delete-account">7. Xoá tài khoản và dữ liệu</h2>
+  <h2 id="delete-account">9. Xoá tài khoản và dữ liệu</h2>
   <p>Bạn có thể xoá tài khoản và toàn bộ dữ liệu bằng một trong hai cách:</p>
   <ul>
     <li><strong>Trong ứng dụng:</strong> Hồ sơ → Cài đặt → Xoá tài khoản.</li>
     <li><strong>Qua email:</strong> gửi yêu cầu đến <strong>ielts.lockin@gmail.com</strong> từ email đã đăng ký, tiêu đề "Xoá tài khoản". Chúng tôi xử lý trong vòng 7 ngày.</li>
   </ul>
-  <p>Sau khi xoá: tài khoản, tiến độ học, tiền tệ ảo và mọi dữ liệu cá nhân liên kết sẽ bị xoá vĩnh viễn và không thể khôi phục.</p>
+  <p>Sau khi xoá: tài khoản, tiến độ học, tiền tệ ảo, ngày sinh, liên kết Discord/giám hộ và mọi dữ liệu cá nhân liên kết sẽ bị xoá vĩnh viễn và không thể khôi phục. Hướng dẫn chi tiết: <a href="delete.html">trang Xoá tài khoản</a>.</p>
 
-  <h2>8. Thay đổi chính sách</h2>
+  <h2>10. Thay đổi chính sách</h2>
   <p>Khi chính sách thay đổi đáng kể, chúng tôi sẽ thông báo trong ứng dụng và cập nhật ngày ở đầu trang này.</p>
 
-  <h2>9. Liên hệ</h2>
+  <h2>11. Liên hệ</h2>
   <p>Mọi câu hỏi về quyền riêng tư: <strong>ielts.lockin@gmail.com</strong></p>
 </div>
 
 <!-- ==================== ENGLISH ==================== -->
 <div id="lang-en" class="lang">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: July 13, 2026 · Applies to the IELTS Lock In app (com.lockin.ielts)</p>
+  <p class="updated">Last updated: July 21, 2026 · Applies to the IELTS Lock In app (com.lockin.ielts)</p>
 
   <p>IELTS Lock In is an IELTS preparation app published by <strong>Đào Đức Minh</strong> ("we"). This policy explains what data we collect, how we use it, and your rights.</p>
 
-  <div class="note"><strong>Minimum age: 13.</strong> The app is for users aged 13 and over and is <strong>not directed to children under 13</strong>. We process personal data in accordance with Vietnam's Law on Personal Data Protection (Law No. 91/2025/QH15) and Decree 356/2025/NĐ-CP. Under Vietnamese law, a person under 16 is a child: for users under 16, processing requires the consent of a parent or guardian. The app serves <strong>non-personalized ads only</strong> and does not track users for advertising purposes.</div>
+  <div class="note"><strong>Minimum age: 13.</strong> The app is for users aged 13 and over and is <strong>not directed to children under 13</strong>. The voice chat feature (Talk Room) is <strong>restricted to users aged 18 and over</strong>. We process personal data in accordance with Vietnam's Law on Personal Data Protection (Law No. 91/2025/QH15) and Decree 356/2025/NĐ-CP. Under Vietnamese law, a person under 16 is a child: for users under 16, processing requires the consent of a parent or guardian. The app serves <strong>non-personalized ads only</strong>.</div>
 
   <h2>1. Data we collect</h2>
   <ul>
-    <li><strong>Account information:</strong> a user identifier (uid) and email (if you sign in with email), via Firebase Authentication.</li>
-    <li><strong>Learning data:</strong> lesson progress, scores, test history, in-app currency (Gold/Silver), and study settings.</li>
+    <li><strong>Account information:</strong> when you sign in with Google, we receive a user identifier (uid), your email address, and basic display name from your Google account (via Firebase Authentication / Google Sign-In).</li>
+    <li><strong>Date of birth:</strong> we ask for your date of birth (a neutral age screen) to determine age-restricted features. Voice chat is available only to users aged 18 and over.</li>
+    <li><strong>Learning data:</strong> lesson progress, scores, test history, in-app currency (Gold/Silver), study goals and settings.</li>
     <li><strong>Essays you submit:</strong> when you use AI Writing scoring, your essay text is sent to our AI provider (DeepSeek) — <strong>processed outside Vietnam</strong> — for scoring only. Essays are not used to identify you.</li>
     <li><strong>Voice (Speaking):</strong> audio is processed <strong>on-device</strong> by the operating system's speech recognition. We <strong>do not upload voice recordings</strong> to any server.</li>
-    <li><strong>Self-reminder (if you record one):</strong> the reminder audio is stored <strong>locally on your device</strong> and is never uploaded to a server; we only store whether a recording exists and its length.</li>
-    <li><strong>Talk Room (voice chat):</strong> voice chat is operated through the Discord platform. When you use this feature, we link your app account to your Discord account (Discord identifier) to manage rooms. Conversations take place on Discord's infrastructure and are governed by <a href="https://discord.com/privacy" target="_blank" rel="noopener">Discord's Privacy Policy</a>. We do not record or store conversation content.</li>
-    <li><strong>Technical data:</strong> basic device information and error logs used to operate and fix the app.</li>
+    <li><strong>Discord account (if you use Talk Room):</strong> we link your app account to your Discord identifier to manage voice rooms. See section 5.</li>
+    <li><strong>Push token:</strong> a token issued by Firebase Cloud Messaging, used to deliver notifications and — for accounts linked to a guardian — to apply parental settings promptly.</li>
+    <li><strong>Protection status (for supervised accounts):</strong> when an account is linked to a guardian device, we record whether the app's protections are active (e.g. whether the required permissions are granted) so the parent knows focus mode is working. <strong>We do not collect the child's installed-app list or app-usage history.</strong></li>
+    <li><strong>Technical data:</strong> basic device information, a device identifier used to enforce the age check and prevent abuse, and error logs used to operate and fix the app.</li>
   </ul>
-  <p>We do <strong>not</strong> collect precise location, contacts, photos, messages, or any data not needed for learning.</p>
+  <p>We do <strong>not</strong> collect precise location, contacts, photos, messages, the user's installed-app list, or any data not needed for learning.</p>
 
   <h2>2. How we use data</h2>
   <ul>
     <li>To provide learning features, save progress, and sync across devices.</li>
     <li>To score essays with AI when you request it.</li>
+    <li>To determine age-appropriate features (e.g. restricting Talk Room to users 18+).</li>
+    <li>To operate focus mode and, if you enable it, parental supervision (see section 6).</li>
+    <li>To deliver notifications and apply settings promptly.</li>
     <li>To operate, secure, and debug the app.</li>
   </ul>
   <p>We <strong>do not sell data</strong> and <strong>do not use minors' data for personalized advertising</strong>.</p>
 
   <h2>3. Advertising</h2>
-  <p>If the app shows ads, we use Google AdMob in <strong>non-personalized mode</strong>: no advertising identifiers are used for behavioral tracking. Premium users see no ads.</p>
+  <p>The app offers an optional <strong>rewarded ads</strong> feature: you can watch an ad to earn in-app Gold. We use <strong>Google AdMob</strong> in <strong>non-personalized mode</strong>. To deliver, measure, and prevent fraud in ads, AdMob may collect device identifiers (e.g. an advertising ID) and ad-interaction data, and share these with Google. We do not use this data to track behavior for personalized advertising. <strong>Premium users see no ads.</strong></p>
 
   <h2>4. Third-party processors</h2>
   <ul>
-    <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions) — stores account and learning data; servers located in asia-southeast1 (Singapore).</li>
-    <li><strong>Google AdMob</strong> — serves non-personalized ads (if any).</li>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore, Storage, Cloud Functions, Cloud Messaging, App Check) — stores account and learning data and delivers notifications; servers located in asia-southeast1 (Singapore).</li>
+    <li><strong>Google AdMob</strong> — serves non-personalized ads; collects device identifiers for advertising purposes (section 3).</li>
     <li><strong>DeepSeek</strong> — AI scoring of Writing essays (receives essay text only, no identity information).</li>
-    <li><strong>Discord</strong> — operates the Talk Room voice chat feature. To use it, you need a Discord account and must agree to <a href="https://discord.com/terms" target="_blank" rel="noopener">Discord's Terms</a> and <a href="https://discord.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>. Discord requires users to be at least 13 years old. This feature is optional — if you do not use Talk Room, no data is shared with Discord.</li>
+    <li><strong>Discord</strong> — operates the Talk Room voice chat feature. See section 5.</li>
   </ul>
   <div class="note"><strong>Cross-border transfer.</strong> Firebase (Singapore) and DeepSeek process data <strong>outside Vietnam</strong>; this is a cross-border transfer of personal data under Vietnamese law. We transfer only the data needed for the purposes above and require these parties to protect your data.</div>
 
-  <h2>5. Minors and parental rights</h2>
-  <p>The minimum age to use the app is 13. Users aged 13 to under 18 are minors and should use the app under the supervision of a parent or guardian. For users <strong>under 16</strong> (children under Vietnamese law), we require the consent of a parent or guardian before processing personal data.</p>
+  <h2>5. Talk Room (voice chat) — 18+ only</h2>
+  <p>Talk Room is an <strong>optional</strong> feature for speaking practice with others via the Discord platform, and is <strong>restricted to users aged 18 and over</strong>. Users under 18 cannot access it.</p>
+  <p>When you use Talk Room, we link your app account to your Discord identifier to manage rooms. In a room, others see an anonymized handle (not your real name from the app), but may see your Discord username as Discord works. Conversations take place on Discord's infrastructure and are governed by <a href="https://discord.com/privacy" target="_blank" rel="noopener">Discord's Privacy Policy</a>; we <strong>do not record or store conversation content</strong>.</p>
+  <p><strong>Safety:</strong> you can <strong>report</strong> other users; reports are stored for our review, prevent the two users from being matched again, and a user reported by multiple people may be <strong>temporarily banned</strong> from the feature. Using Talk Room requires a Discord account and agreement to <a href="https://discord.com/terms" target="_blank" rel="noopener">Discord's Terms</a>. If you do not use Talk Room, no data is shared with Discord.</p>
+
+  <h2>6. Parental supervision (optional)</h2>
+  <p>A parent/guardian and a learner can <strong>link their accounts using a pairing code</strong>. This is an optional feature.</p>
+  <p>Once linked, the guardian can: view the child's learning report (test results, progress, daily homework), set study goals/schedules, and choose which study apps are allowed during focus (from a curated list). The guardian is notified of the <strong>protection status</strong> on the child's device, <strong>but does not see the child's installed-app list or usage history</strong>. We do not track location or read the child's messages.</p>
+  <p>The learner can <strong>disconnect at any time</strong> from within the app; all parent-applied settings are then removed and the guardian is notified.</p>
+
+  <h2>7. Minors and parental rights</h2>
+  <p>The minimum age to use the app is 13. Users aged 13 to under 18 are minors; the voice chat feature is not available to them. For users <strong>under 16</strong> (children under Vietnamese law), we require the consent of a parent or guardian before processing personal data.</p>
   <p>If you are a parent or guardian, you may review your child's data, request its correction or deletion, and withdraw consent at any time. Contact <strong>ielts.lockin@gmail.com</strong> — we respond within 7 days.</p>
 
-  <h2>6. Storage and security</h2>
+  <h2>8. Storage and security</h2>
   <p>Data is stored on Google Cloud infrastructure with encryption in transit and at rest. We keep data while the account is active; when an account is deleted, associated data is removed from our systems within 30 days.</p>
 
-  <h2 id="delete-account-en">7. Deleting your account and data</h2>
+  <h2 id="delete-account-en">9. Deleting your account and data</h2>
   <p>You can delete your account and all associated data in either of two ways:</p>
   <ul>
     <li><strong>In the app:</strong> Profile → Settings → Delete account.</li>
     <li><strong>By email:</strong> send a request to <strong>ielts.lockin@gmail.com</strong> from your registered email with the subject "Delete account". We process requests within 7 days.</li>
   </ul>
-  <p>After deletion, your account, learning progress, virtual currency, and all linked personal data are permanently and irreversibly removed.</p>
+  <p>After deletion, your account, learning progress, virtual currency, date of birth, Discord/guardian links, and all linked personal data are permanently and irreversibly removed. Full instructions: <a href="delete.html">account deletion page</a>.</p>
 
-  <h2>8. Changes to this policy</h2>
+  <h2>10. Changes to this policy</h2>
   <p>If this policy changes materially, we will notify you in the app and update the date at the top of this page.</p>
 
-  <h2>9. Contact</h2>
+  <h2>11. Contact</h2>
   <p>Privacy questions: <strong>ielts.lockin@gmail.com</strong></p>
 </div>
 
-  <footer>IELTS Lock In (com.lockin.ielts) · <a href="terms.html">Terms of Service</a></footer>
+  <footer>IELTS Lock In (com.lockin.ielts) · <a href="terms.html">Terms of Service</a> · <a href="delete.html">Delete account</a></footer>
 </div>
 <script>
 function setLang(l){
@@ -175,7 +205,6 @@ function setLang(l){
   document.getElementById('btn-en').classList.toggle('on', l==='en');
   document.documentElement.lang = l;
 }
-if(location.hash==='#delete-account'){/* keep default VI; anchor exists in VI block */}
 </script>
 </body>
 </html>

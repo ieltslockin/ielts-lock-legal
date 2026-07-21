@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Account — IELTS Lock In</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{--sea:#0E7490;--sea-dark:#155E75;--ink:#1C2B33;--muted:#5B6B73;--bg:#FFFFFF;--wash:#ECF6F9;--line:#D8E6EB;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;}
+  .wrap{max-width:720px;margin:0 auto;padding:40px 24px 80px;}
+  a{color:var(--sea-dark);}
+  .top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:28px;flex-wrap:wrap;}
+  .back{font-size:14px;text-decoration:none;font-weight:600;}
+  .toggle{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;}
+  .toggle button{border:0;background:transparent;font-family:inherit;font-size:13px;font-weight:600;padding:6px 16px;cursor:pointer;color:var(--muted);}
+  .toggle button.on{background:var(--sea);color:#fff;}
+  h1{font-size:26px;font-weight:800;letter-spacing:-0.02em;margin-bottom:4px;}
+  .updated{font-size:13px;color:var(--muted);margin-bottom:32px;}
+  h2{font-size:18px;font-weight:600;color:var(--sea-dark);margin:32px 0 8px;padding-left:12px;border-left:4px solid var(--sea);}
+  p,li{font-size:15px;margin-bottom:10px;}
+  ul,ol{padding-left:22px;margin-bottom:12px;}
+  .note{background:var(--wash);border-radius:10px;padding:14px 18px;font-size:14px;margin:16px 0;}
+  .steps{background:var(--wash);border-radius:10px;padding:18px 20px 8px;margin:16px 0;}
+  .lang{display:none;}
+  .lang.show{display:block;}
+  footer{margin-top:48px;font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;}
+  :focus-visible{outline:2px solid var(--sea);outline-offset:2px;border-radius:4px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <a class="back" href="index.html">← IELTS Lock In</a>
+    <div class="toggle" role="group" aria-label="Language">
+      <button id="btn-vi" class="on" onclick="setLang('vi')">Tiếng Việt</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </div>
+
+<!-- ==================== VIETNAMESE ==================== -->
+<div id="lang-vi" class="lang show">
+  <h1>Xoá tài khoản và dữ liệu</h1>
+  <p class="updated">Ứng dụng IELTS Lock In (com.lockin.ielts) · Nhà phát triển: Đào Đức Minh</p>
+
+  <p>Trang này giải thích cách yêu cầu xoá tài khoản IELTS Lock In của bạn và dữ liệu liên quan.</p>
+
+  <h2>Cách 1 — Xoá ngay trong ứng dụng</h2>
+  <div class="steps">
+    <ol>
+      <li>Mở ứng dụng IELTS Lock In.</li>
+      <li>Vào <strong>Hồ sơ → Cài đặt</strong>.</li>
+      <li>Chọn <strong>Xoá tài khoản</strong> và xác nhận.</li>
+    </ol>
+  </div>
+  <p>Tài khoản và dữ liệu sẽ được xoá ngay sau khi bạn xác nhận.</p>
+
+  <h2>Cách 2 — Yêu cầu qua email</h2>
+  <p>Gửi email đến <strong>ielts.lockin@gmail.com</strong> <strong>từ chính địa chỉ email đã dùng để đăng nhập</strong>, với:</p>
+  <ul>
+    <li>Tiêu đề: <strong>Xoá tài khoản</strong></li>
+    <li>Nội dung: địa chỉ email tài khoản của bạn (để chúng tôi xác minh).</li>
+  </ul>
+  <p>Chúng tôi xử lý yêu cầu trong vòng <strong>7 ngày</strong>.</p>
+
+  <h2>Dữ liệu bị xoá</h2>
+  <p>Khi xoá tài khoản, các dữ liệu sau bị xoá <strong>vĩnh viễn và không thể khôi phục</strong>:</p>
+  <ul>
+    <li>Thông tin tài khoản (mã định danh, email, tên hiển thị).</li>
+    <li>Ngày sinh và trạng thái xác minh tuổi.</li>
+    <li>Toàn bộ dữ liệu học tập: tiến độ, điểm số, lịch sử làm bài, mục tiêu, tiền tệ trong ứng dụng (Gold/Silver).</li>
+    <li>Liên kết tài khoản Discord (nếu có) và liên kết giám hộ (nếu có).</li>
+    <li>Các báo cáo và dữ liệu kỹ thuật liên quan tới tài khoản.</li>
+  </ul>
+  <div class="note"><strong>Thời gian lưu:</strong> dữ liệu liên kết được xoá khỏi hệ thống của chúng tôi trong vòng <strong>30 ngày</strong> kể từ khi tài khoản bị xoá. Chúng tôi không giữ lại dữ liệu cá nhân nào sau thời hạn này, trừ khi pháp luật yêu cầu.</div>
+
+  <h2>Người dùng chưa thành niên</h2>
+  <p>Nếu bạn là cha mẹ hoặc người giám hộ và muốn xoá tài khoản của con, hãy gửi email đến <strong>ielts.lockin@gmail.com</strong> — chúng tôi sẽ hỗ trợ.</p>
+
+  <h2>Liên hệ</h2>
+  <p><strong>ielts.lockin@gmail.com</strong> · Xem thêm <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
+</div>
+
+<!-- ==================== ENGLISH ==================== -->
+<div id="lang-en" class="lang">
+  <h1>Delete your account and data</h1>
+  <p class="updated">IELTS Lock In app (com.lockin.ielts) · Developer: Đào Đức Minh</p>
+
+  <p>This page explains how to request deletion of your IELTS Lock In account and associated data.</p>
+
+  <h2>Option 1 — Delete in the app</h2>
+  <div class="steps">
+    <ol>
+      <li>Open the IELTS Lock In app.</li>
+      <li>Go to <strong>Profile → Settings</strong>.</li>
+      <li>Tap <strong>Delete account</strong> and confirm.</li>
+    </ol>
+  </div>
+  <p>Your account and data are deleted immediately after you confirm.</p>
+
+  <h2>Option 2 — Request by email</h2>
+  <p>Email <strong>ielts.lockin@gmail.com</strong> <strong>from the same email address you used to sign in</strong>, with:</p>
+  <ul>
+    <li>Subject: <strong>Delete account</strong></li>
+    <li>Body: your account email address (so we can verify you).</li>
+  </ul>
+  <p>We process requests within <strong>7 days</strong>.</p>
+
+  <h2>Data that is deleted</h2>
+  <p>When you delete your account, the following are <strong>permanently and irreversibly</strong> removed:</p>
+  <ul>
+    <li>Account information (user identifier, email, display name).</li>
+    <li>Date of birth and age-verification status.</li>
+    <li>All learning data: progress, scores, test history, goals, in-app currency (Gold/Silver).</li>
+    <li>Your Discord account link (if any) and guardian link (if any).</li>
+    <li>Reports and technical data associated with your account.</li>
+  </ul>
+  <div class="note"><strong>Retention:</strong> associated data is removed from our systems within <strong>30 days</strong> of account deletion. We do not retain personal data after this period, except where required by law.</div>
+
+  <h2>Minors</h2>
+  <p>If you are a parent or guardian and wish to delete your child's account, email <strong>ielts.lockin@gmail.com</strong> and we will assist you.</p>
+
+  <h2>Contact</h2>
+  <p><strong>ielts.lockin@gmail.com</strong> · See also our <a href="privacy.html">Privacy Policy</a>.</p>
+</div>
+
+  <footer>IELTS Lock In (com.lockin.ielts) · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></footer>
+</div>
+<script>
+function setLang(l){
+  document.getElementById('lang-vi').classList.toggle('show', l==='vi');
+  document.getElementById('lang-en').classList.toggle('show', l==='en');
+  document.getElementById('btn-vi').classList.toggle('on', l==='vi');
+  document.getElementById('btn-en').classList.toggle('on', l==='en');
+  document.documentElement.lang = l;
+}
+</script>
+</body>
+</html>
