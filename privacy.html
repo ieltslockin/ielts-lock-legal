@@ -42,15 +42,15 @@
 <!-- ==================== VIETNAMESE ==================== -->
 <div id="lang-vi" class="lang show">
   <h1>Chính sách quyền riêng tư</h1>
-  <p class="updated">Cập nhật lần cuối: 09/08/2026 · Áp dụng cho ứng dụng IELTS Lock In (com.lockin.ielts)</p>
+  <p class="updated">Cập nhật lần cuối: 26/08/2026 · Áp dụng cho ứng dụng IELTS Lock In (com.lockin.ielts)</p>
 
   <p>IELTS Lock In là ứng dụng luyện thi IELTS do <strong>Đào Đức Minh</strong> ("chúng tôi") phát hành. Chính sách này giải thích chúng tôi thu thập dữ liệu gì, dùng để làm gì, và quyền của bạn.</p>
 
-  <div class="note"><strong>Độ tuổi tối thiểu: 13.</strong> Ứng dụng dành cho người dùng từ đủ 13 tuổi trở lên và <strong>không hướng đến trẻ em dưới 13 tuổi</strong>. Chúng tôi xử lý dữ liệu cá nhân theo Luật Bảo vệ dữ liệu cá nhân (Luật số 91/2025/QH15) và Nghị định 356/2025/NĐ-CP của Việt Nam. Theo pháp luật Việt Nam, người dưới 16 tuổi được coi là trẻ em: với người dùng dưới 16 tuổi, việc xử lý dữ liệu cần có sự đồng ý của cha mẹ hoặc người giám hộ. Ứng dụng chỉ hiển thị <strong>quảng cáo không cá nhân hoá</strong> và không theo dõi hành vi người dùng cho mục đích quảng cáo.</div>
+  <div class="note"><strong>Người dùng dưới 13 tuổi.</strong> Người dùng dưới 13 tuổi chỉ được sử dụng ứng dụng khi có <strong>sự đồng ý và giám sát của cha mẹ hoặc người giám hộ</strong>. Chúng tôi xử lý dữ liệu cá nhân theo Luật Bảo vệ dữ liệu cá nhân (Luật số 91/2025/QH15) và Nghị định 356/2025/NĐ-CP của Việt Nam. Theo pháp luật Việt Nam, người dưới 16 tuổi được coi là trẻ em: với người dùng dưới 16 tuổi, việc xử lý dữ liệu cần có sự đồng ý của cha mẹ hoặc người giám hộ. Ứng dụng chỉ hiển thị <strong>quảng cáo không cá nhân hoá</strong> và không theo dõi hành vi người dùng cho mục đích quảng cáo.</div>
 
   <h2>1. Dữ liệu chúng tôi thu thập</h2>
   <ul>
-    <li><strong>Thông tin tài khoản:</strong> Firebase uid; email Google, tên hiển thị và URL ảnh đại diện nếu Google cung cấp khi bạn đăng nhập.</li>
+    <li><strong>Thông tin tài khoản:</strong> Firebase uid; email và tên hiển thị nếu Google hoặc Apple cung cấp khi bạn đăng nhập; URL ảnh đại diện nếu Google cung cấp.</li>
     <li><strong>Dữ liệu học tập:</strong> tiến độ bài học, điểm số, lịch sử làm bài, tiền tệ trong ứng dụng (Gold/Silver), cài đặt học tập.</li>
     <li><strong>Bài viết bạn nộp:</strong> khi bạn dùng tính năng chấm bài Writing bằng AI, nội dung bài viết được gửi đến nhà cung cấp AI (DeepSeek) — <strong>xử lý bên ngoài lãnh thổ Việt Nam</strong> — để chấm điểm, sau đó trả kết quả về. Bài viết không được dùng để nhận diện danh tính.</li>
     <li><strong>Giọng nói (Speaking):</strong> âm thanh được xử lý <strong>trực tiếp trên thiết bị</strong> bằng công cụ nhận dạng giọng nói của hệ điều hành. Chúng tôi <strong>không tải bản ghi âm lên máy chủ</strong>.</li>
@@ -79,13 +79,14 @@
   <ul>
     <li><strong>Google Firebase/Google Cloud</strong> (Authentication, Firestore, Storage, Cloud Functions, FCM) — lưu trữ và xử lý tài khoản, dữ liệu học tập và thông báo. Cloud Functions chính dùng khu vực asia-southeast1; các dịch vụ Google khác có thể xử lý dữ liệu tại các khu vực do Google vận hành.</li>
     <li><strong>Google AdMob</strong> — hiển thị quảng cáo không cá nhân hoá (nếu có).</li>
+    <li><strong>Apple</strong> — cung cấp Sign in with Apple và xử lý giao dịch App Store trên iOS.</li>
     <li><strong>DeepSeek</strong> — chấm điểm bài viết Writing bằng AI (chỉ nhận nội dung bài viết, không nhận thông tin danh tính).</li>
     <li><strong>Discord</strong> — vận hành Talk Room. Discord có điều khoản độ tuổi riêng; IELTS Lock In áp dụng cổng nghiêm ngặt hơn: chỉ người từ đủ 18 tuổi đã xác minh mới được dùng Talk Room. Tính năng này là tuỳ chọn.</li>
   </ul>
-  <div class="note"><strong>Chuyển dữ liệu ra nước ngoài.</strong> Google Firebase/Google Cloud, DeepSeek và Discord có thể xử lý dữ liệu <strong>bên ngoài lãnh thổ Việt Nam</strong>. Chúng tôi chỉ chuyển dữ liệu cần cho các mục đích nêu trên và áp dụng biện pháp bảo vệ phù hợp.</div>
+  <div class="note"><strong>Chuyển dữ liệu ra nước ngoài.</strong> Google Firebase/Google Cloud, Apple, DeepSeek và Discord có thể xử lý dữ liệu <strong>bên ngoài lãnh thổ Việt Nam</strong>. Chúng tôi chỉ chuyển dữ liệu cần cho các mục đích nêu trên và áp dụng biện pháp bảo vệ phù hợp.</div>
 
   <h2>5. Người dùng chưa thành niên và quyền của cha mẹ</h2>
-  <p>Độ tuổi tối thiểu để sử dụng ứng dụng là 13. Người dùng từ 13 đến dưới 18 tuổi là người chưa thành niên và nên sử dụng ứng dụng dưới sự giám sát của cha mẹ hoặc người giám hộ. Với người dùng <strong>dưới 16 tuổi</strong> (trẻ em theo pháp luật Việt Nam), chúng tôi yêu cầu sự đồng ý của cha mẹ hoặc người giám hộ trước khi xử lý dữ liệu cá nhân.</p>
+  <p>Người dùng dưới 13 tuổi phải có sự đồng ý và giám sát của cha mẹ hoặc người giám hộ khi sử dụng ứng dụng. Người dùng từ 13 đến dưới 18 tuổi là người chưa thành niên và nên sử dụng ứng dụng dưới sự giám sát của cha mẹ hoặc người giám hộ. Với người dùng <strong>dưới 16 tuổi</strong> (trẻ em theo pháp luật Việt Nam), chúng tôi yêu cầu sự đồng ý của cha mẹ hoặc người giám hộ trước khi xử lý dữ liệu cá nhân.</p>
   <p>Nếu bạn là cha mẹ hoặc người giám hộ, bạn có quyền: xem dữ liệu của con, yêu cầu chỉnh sửa hoặc xoá dữ liệu, và rút lại sự đồng ý bất kỳ lúc nào. Hãy liên hệ <strong>ielts.lockin@gmail.com</strong> — chúng tôi phản hồi trong vòng 7 ngày.</p>
 
   <h2>6. Lưu trữ và bảo mật</h2>
@@ -109,15 +110,15 @@
 <!-- ==================== ENGLISH ==================== -->
 <div id="lang-en" class="lang">
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: August 9, 2026 · Applies to the IELTS Lock In app (com.lockin.ielts)</p>
+  <p class="updated">Last updated: August 26, 2026 · Applies to the IELTS Lock In app (com.lockin.ielts)</p>
 
   <p>IELTS Lock In is an IELTS preparation app published by <strong>Đào Đức Minh</strong> ("we"). This policy explains what data we collect, how we use it, and your rights.</p>
 
-  <div class="note"><strong>Minimum age: 13.</strong> The app is for users aged 13 and over and is <strong>not directed to children under 13</strong>. We process personal data in accordance with Vietnam's Law on Personal Data Protection (Law No. 91/2025/QH15) and Decree 356/2025/NĐ-CP. Under Vietnamese law, a person under 16 is a child: for users under 16, processing requires the consent of a parent or guardian. The app serves <strong>non-personalized ads only</strong> and does not track users for advertising purposes.</div>
+  <div class="note"><strong>Users under 13.</strong> Users under 13 may use the app only with the <strong>consent and supervision of a parent or guardian</strong>. We process personal data in accordance with Vietnam's Law on Personal Data Protection (Law No. 91/2025/QH15) and Decree 356/2025/NĐ-CP. Under Vietnamese law, a person under 16 is a child: for users under 16, processing requires the consent of a parent or guardian. The app serves <strong>non-personalized ads only</strong> and does not track users for advertising purposes.</div>
 
   <h2>1. Data we collect</h2>
   <ul>
-    <li><strong>Account information:</strong> Firebase uid; Google email, display name, and photo URL when provided by Google at sign-in.</li>
+    <li><strong>Account information:</strong> Firebase uid; email and display name when provided by Google or Apple at sign-in; photo URL when provided by Google.</li>
     <li><strong>Learning data:</strong> lesson progress, scores, test history, in-app currency (Gold/Silver), and study settings.</li>
     <li><strong>Essays you submit:</strong> when you use AI Writing scoring, your essay text is sent to our AI provider (DeepSeek) — <strong>processed outside Vietnam</strong> — for scoring only. Essays are not used to identify you.</li>
     <li><strong>Voice (Speaking):</strong> audio is processed <strong>on-device</strong> by the operating system's speech recognition. We <strong>do not upload voice recordings</strong> to any server.</li>
@@ -146,13 +147,14 @@
   <ul>
     <li><strong>Google Firebase/Google Cloud</strong> (Authentication, Firestore, Storage, Cloud Functions, FCM) — stores and processes account, learning, and notification data. Primary Cloud Functions use asia-southeast1; other Google services may process data in regions operated by Google.</li>
     <li><strong>Google AdMob</strong> — serves non-personalized ads (if any).</li>
+    <li><strong>Apple</strong> — provides Sign in with Apple and processes App Store transactions on iOS.</li>
     <li><strong>DeepSeek</strong> — AI scoring of Writing essays (receives essay text only, no identity information).</li>
     <li><strong>Discord</strong> — operates Talk Room. Discord has its own age terms; IELTS Lock In applies a stricter gate and permits Talk Room only for age-verified users aged 18 or over. The feature is optional.</li>
   </ul>
-  <div class="note"><strong>Cross-border transfer.</strong> Google Firebase/Google Cloud, DeepSeek, and Discord may process data <strong>outside Vietnam</strong>. We transfer only data needed for the purposes above and apply appropriate safeguards.</div>
+  <div class="note"><strong>Cross-border transfer.</strong> Google Firebase/Google Cloud, Apple, DeepSeek, and Discord may process data <strong>outside Vietnam</strong>. We transfer only data needed for the purposes above and apply appropriate safeguards.</div>
 
   <h2>5. Minors and parental rights</h2>
-  <p>The minimum age to use the app is 13. Users aged 13 to under 18 are minors and should use the app under the supervision of a parent or guardian. For users <strong>under 16</strong> (children under Vietnamese law), we require the consent of a parent or guardian before processing personal data.</p>
+  <p>Users under 13 must have the consent and supervision of a parent or guardian when using the app. Users aged 13 to under 18 are minors and should use the app under the supervision of a parent or guardian. For users <strong>under 16</strong> (children under Vietnamese law), we require the consent of a parent or guardian before processing personal data.</p>
   <p>If you are a parent or guardian, you may review your child's data, request its correction or deletion, and withdraw consent at any time. Contact <strong>ielts.lockin@gmail.com</strong> — we respond within 7 days.</p>
 
   <h2>6. Storage and security</h2>
